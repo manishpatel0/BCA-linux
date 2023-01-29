@@ -1,0 +1,14 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+body {
+	background: linear-gradient(#8966bb,#109b8845)
+}
+
+.conten {
+	width: 100%;
+	margin: all;
+}
