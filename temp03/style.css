@@ -1,0 +1,15 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+
+}
+
+body {
+	background: linear-gradient(to right, #434, #231)
+}
+
+nav ul {
+	color:  #fff;
+	display: flex;
+}
