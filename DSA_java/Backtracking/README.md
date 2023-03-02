@@ -22,3 +22,7 @@ total permutations = n!
 # N x N chessboard 
 #N Queens 
 #Prin all solutions where queens are safe 
+
+# Q1, Q2, Q3, Q4
+# Place them in different columns 4X4
+

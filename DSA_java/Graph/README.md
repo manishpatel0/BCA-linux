@@ -1,6 +1,6 @@
 # Graph 
 
-* Storing a Graph * 
+#* Storing a Graph * 
 
 - Adjacency List 
 - Adjacency Matrix 
@@ -9,4 +9,4 @@
 
 
 ## Ajacency List 
-+ ( List of List )
++ ( List of List )			
