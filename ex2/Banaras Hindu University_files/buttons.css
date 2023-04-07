@@ -1,0 +1,548 @@
+.btn-circle li, .nav-tabs.btn-circle > li {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	background: rgba(1, 113, 197, 0.4) ;
+	/*background: rgba(0,0,0,0.1);*/
+	border-top: 2px solid #0171c5;
+	border-bottom: 2px solid #fff;
+	-moz-border-radius:7%;
+    -webkit-border-radius:7%;
+    border-radius:7%;
+	behavior: url(border-radius.htc);
+	box-shadow:  inset 0px 1px 24px rgba(44, 178, 197, 0.5);
+	-webkit-box-shadow:  inset 0px 1px 24px rgba(44, 178, 197, 0.5);
+	-moz-box-shadow:  inset 0px 1px 24px rgba(44, 178, 197, 0.5);
+}
+.btn-circle li.inactv, .nav-tabs.btn-circle > li.inactv {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	background: rgba(210, 210, 210, 0.7);
+	/*background: rgba(0,0,0,0.1);*/
+	border-top: 2px solid #aaa;
+	border-bottom: 2px solid #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow:  inset 0px 8px 24px rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow:  inset 0px 8px 24px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow:  inset 0px 8px 24px rgba(255, 255, 255, 0.5);
+}
+.btn-circle a, .nav-tabs.btn-circle > li > a {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow:  0px 3px 5px #aaa, inset 0px 2px 3px #fff;
+	-webkit-box-shadow:  0px 3px 5px #aaa, inset 0px 2px 3px #fff;
+	-moz-box-shadow:  0px 3px 5px #aaa, inset 0px 2px 3px #fff;
+	text-shadow: #fff 1px 1px 2px;
+	text-decoration: none;
+	font-size:13px;
+	font-weight:bold;
+	margin:10px;
+}
+.btn-circle-panel.medium .btn-circle a  {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow:  0px 3px 5px #aaa, inset 0px 2px 3px #fff;
+	-webkit-box-shadow:  0px 3px 5px #aaa, inset 0px 2px 3px #fff;
+	-moz-box-shadow:  0px 3px 5px #aaa, inset 0px 2px 3px #fff;
+	text-shadow: #fff 1px 1px 2px;
+	text-decoration: none;
+	font-size:11px !important;
+	font-weight:600;
+	/*line-height:0px;*/
+	margin:10px;
+}
+
+
+.btn-circle a, .btn-rounded a, .btn-boxed a, .nav-tabs.btn-circle > li > a, .btn-circle .inactv a:hover {
+	display: block;
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e7e7e7));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e7e7e7);
+	background-image: -moz-linear-gradient(top, #ffffff, #e7e7e7);
+	background-image: -ms-linear-gradient(top, #ffffff, #e7e7e7);
+	background-image: -o-linear-gradient(top, #ffffff, #e7e7e7);
+	color: #9f9f9f;
+	text-shadow: #fff 1px 2px 3px;
+	position: relative;
+	text-align: center;
+}
+/*==================================================
+* button icon, circle
+* ===============================================*/
+/* circle IMAGE */
+.circle-item {
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 7px;
+}
+.circle-item:after,.circle-item:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 1px solid #232323;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;
+} 
+.circle-item:after {
+	top: 1px;
+	left: 1px;
+	right: 1px;
+	bottom: 1px;
+	border: 5px solid rgba(255,255,255,0.5);
+}  
+/*default size*/
+.circle-item img, 
+.circle-item [class^="micon-"], 
+.circle-item [class^="icon-"]{
+	display: block;
+	width:30px;
+	height:30px;
+	font-size:15px;
+	line-height:30px!important;
+	text-align:center!important;
+	margin:0;
+	padding:0;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;
+}
+.btn.circle-item{
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;
+	margin:0;
+}
+/*small size*/
+.circle-item.small img, 
+.circle-item.small [class^="micon-"]{
+	width:20px;
+	height:20px;
+	font-size:12px;
+	line-height:20px!important;
+}
+/*medium size*/
+.circle-item.medium img, 
+.circle-item.medium [class^="micon-"]{
+	width:60px;
+	height:60px;
+	font-size:30px;
+	/*line-height:60px!important;*/
+}
+/*large size*/
+.circle-item.large img, 
+.circle-item.large [class^="micon-"]{
+	width:100px;
+	height:100px;
+	font-size:60px;
+	line-height:100px!important;
+}
+/***************/
+/*==================================================
+* full width button
+* ===============================================*/
+.button-action {margin-bottom:20px;}
+.button-action .btn {
+	display:block;
+	position:relative;
+	height:25px;
+	margin:0 0 10px 0;
+}
+.button-action.btn-group.btn-group-vertical {
+	margin-bottom:15px;
+	display:block;
+}
+.button-action.btn-group.btn-group-vertical.paper-pile {margin-bottom:25px;}
+.button-action.btn-group.btn-group-vertical .btn {
+	margin:0;
+	display:block;
+	width:auto;
+}
+.button-action.btn-group.btn-group-vertical .btn:first-child, 
+.button-action.btn-group.btn-group-vertical .btn:last-child {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.button-action .btn span{
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:rgba(0,0,0,0.15);
+	border-right:1px solid rgba(0,0,0,0.2);
+	height:100%;
+	width:50px;
+}
+.button-action .btn span.right{
+	position:absolute;
+	right:0px;
+	top:0px;
+	left:auto;
+	border-right:none;
+	background:rgba(0,0,0,0.15);
+	border-left:1px solid rgba(0,0,0,0.2);
+	height:100%;
+	width:50px;
+}
+.button-action .btn span i{line-height:42px;}
+/*==================================================
+* button groups
+* ===============================================*/
+.well .btn-group > .btn:first-child {
+	-webkit-border-bottom-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	-webkit-border-top-left-radius: 2px;
+	border-top-left-radius: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	-moz-border-radius-topleft: 2px;
+}
+.well .btn-group > .btn:last-child,
+.well .btn-group > .dropdown-toggle {
+	-webkit-border-top-right-radius: 2px;
+	border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 2px;
+}
+.well .btn-group > .btn.large:first-child {
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-topleft: 4px;
+}
+.well .btn-group > .btn.large:last-child,
+.well .btn-group > .large.dropdown-toggle {
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+}
+/*==================================================
+* big circle buttons
+* ===============================================*/
+.btn-circle-panel.small .btn-circle li, 
+.btn-rounded-panel.small .btn-rounded li {
+	width:80px;
+	height:80px!important;
+}
+.btn-circle-panel.small .btn-circle li a, 
+.btn-rounded-panel.small .btn-rounded li a, 
+.btn-boxed-panel.small .btn-boxed li, 
+.btn-boxed-panel.small .btn-boxed li a{
+	width: 70px;
+	height: 70px;
+	line-height:70px;
+}
+.btn-circle-panel.small [class^="micon-"], 
+.btn-rounded-panel.small [class^="micon-"], 
+.btn-boxed-panel.small [class^="micon-"], 
+.btn-circle-panel.small [class^="icon-"], 
+.btn-rounded-panel.small [class^="icon-"], 
+.btn-boxed-panel.small [class^="icon-"] {line-height: 60px;}
+.btn-circle-panel.medium .btn-circle li, 
+.btn-rounded-panel.medium .btn-rounded li {
+	width:100px;
+	height:100px!important;
+}
+.btn-circle-panel.medium .btn-circle li a, 
+.btn-rounded-panel.medium .btn-rounded li a, 
+.btn-boxed-panel.medium .btn-boxed li, 
+.btn-boxed-panel.medium .btn-boxed li a{
+	width: 120px;
+	height: 120px;
+}
+.btn-circle-panel.medium [class^="micon-"], 
+.btn-rounded-panel.medium [class^="micon-"], 
+.btn-boxed-panel.medium [class^="micon-"], 
+.btn-circle-panel.medium [class^="icon-"], 
+.btn-rounded-panel.medium [class^="icon-"], 
+.btn-boxed-panel.medium [class^="icon-"] {
+	font-size:35px;
+	/*line-height: 80px;*/
+}
+.btn-circle-panel.large .btn-circle li, 
+.btn-rounded-panel.large .btn-rounded li {
+	width:180px;
+	height:180px!important;
+}
+.btn-circle-panel.large .btn-circle li a, 
+.btn-rounded-panel.large .btn-rounded li a, 
+.btn-boxed-panel.large .btn-boxed li, 
+.btn-boxed-panel.large .btn-boxed li a{
+	width: 160px;
+	height: 160px;
+	/*line-height: 150px;*/
+}
+.btn-circle-panel.medium .btn-circle li, 
+.btn-rounded-panel.medium .btn-rounded li {
+	width:120px;
+	height:120px!important;
+	/*line-height:0px;*/
+}
+.btn-circle-panel.medium .btn-circle li a, 
+.btn-rounded-panel.medium .btn-rounded li a, 
+.btn-boxed-panel.medium .btn-boxed li, 
+.btn-boxed-panel.medium .btn-boxed li a{
+	width: 100px;
+	height: 100px;
+}
+
+.btn-circle li a span.first	{
+	width:80%;
+	margin:0 9%;
+	height:60%;
+	margin-top:5%;
+	line-height:100px;
+	display:block;
+}
+.btn-circle li a span.second	{
+	width:90%;
+	margin:0 4%;
+	height:54%;
+	line-height:50px;
+	display:block;
+	float:left;
+}
+.medium .btn-circle li a .secondSmall	{
+	width:100%;
+	height:40px;
+	display:block;
+	float:left;
+}
+
+
+.btn-circle-panel.large [class^="micon-"], 
+.btn-rounded-panel.large [class^="micon-"], 
+.btn-boxed-panel.large [class^="micon-"], 
+.btn-circle-panel.large [class^="icon-"], 
+.btn-rounded-panel.large [class^="icon-"], 
+.btn-boxed-panel.large [class^="icon-"] {line-height: 100px;}
+
+/*==================================================
+* big rounded buttons
+* ===============================================*/
+.btn-rounded li {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	background: #eaeaea;
+	border-top: 2px solid #aaa;
+	border-bottom: 2px solid #fff;
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	border-radius: 20%;
+	box-shadow:  inset 0px 8px 24px #cbcbcb;
+	-webkit-box-shadow:  inset 0px 8px 24px #cbcbcb;
+	-moz-box-shadow:  inset 0px 8px 24px #cbcbcb;
+}
+.btn-rounded a {
+	-webkit-border-radius: 20%;
+	-moz-border-radius: 20%;
+	border-radius: 20%;
+	box-shadow:  0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+	-webkit-box-shadow:  0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+	-moz-box-shadow:  0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+	text-shadow: #fff 1px 2px 3px;
+	text-decoration: none;
+	font-size:14px;
+	font-weight:bold;
+	margin:10px;
+}
+/*==================================================
+* big boxed buttons
+* ===============================================*/
+.btn-boxed li {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px;
+	background: #eaeaea;
+	border-top: 2px solid #aaa;
+	border-bottom: 2px solid #dedede;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow:  inset 0px 8px 24px #cbcbcb;
+	-webkit-box-shadow:  inset 0px 8px 24px #cbcbcb;
+	-moz-box-shadow:  inset 0px 8px 24px #cbcbcb;
+	padding:10px;
+}
+.btn-boxed a {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow:  0px 0px 1px #aaa, inset 0px 0px 1px #fff;
+	-webkit-box-shadow:  0px 0px 1px #aaa, inset 0px 0px 1px #fff;
+	-moz-box-shadow:  0px 0px 1px #aaa, inset 0px 0px 1px #fff;
+	text-shadow: #fff 1px 2px 3px;
+	text-decoration: none;
+	font-size:14px;
+	font-weight:bold;
+}
+/********** +++++  ***************/
+.btn-circle, 
+.btn-rounded, 
+.btn-boxed {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-align: center;
+	/* padding:15px 0px; */
+	padding:0;
+}
+.btn-circle li, 
+.btn-rounded li, 
+.btn-boxed li {margin-bottom:15px;}
+.btn-circle a i, 
+.btn-rounded a i, 
+.btn-boxed a i {
+	font-size:30px;
+	font-weight:bold;
+	margin-top:0;
+}
+.btn-circle li a img, 
+.btn-rounded li a img, 
+.btn-boxed li a img {
+	width:64px;
+	height:64px;
+	vertical-align:middle;
+	margin-top:3px;
+}
+.btn-circle-panel.medium .btn-circle li a img, 
+.btn-circle-panel.medium .btn-rounded li a img, 
+.btn-circle-panel.medium .btn-boxed li a img {
+	width:48px;
+	height:48px;
+	vertical-align:middle;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.btn-circle a:hover, 
+.btn-circle .active a, 
+.btn-circle .active a:hover, 
+.btn-rounded a:hover, 
+.btn-rounded .active a, 
+.btn-rounded .active a:hover, 
+.btn-boxed a:hover, 
+.btn-boxed .active a, 
+.btn-boxed .active a:hover, 
+.nav-tabs.btn-circle > li > a:hover, 
+.nav-tabs.btn-circle > .active > a, 
+.nav-tabs.btn-circle > .active > a:hover {
+	text-decoration: none;
+	text-shadow: #fff 0px 2px 1px;
+	color: #454545;
+	background: #ffffff;
+	box-shadow:  0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+	-webkit-box-shadow:  0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+	-moz-box-shadow:  0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+.btn-circle a:focus, 
+.btn-rounded a:focus, 
+.btn-boxed a:focus {outline: none;}
+.btn-circle .badge, 
+.btn-rounded .badge, 
+.btn-boxed .badge {
+	position:absolute;
+	top:0;
+	right:0;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.btn-rounded .badge, 
+.btn-boxed .badge,
+.btn-circle .badge {
+	top:10px;
+	right:20px;
+}
+/*dashboard Menu icon change css*/
+
+
+.btn-circle-panel.medium .btn-circle a{
+	background-color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-image: none;
+}
+.btn-circle li a span.second{
+	height: 60%;
+}
+.btn-circle-panel.medium .btn-circle li a img{
+	/* background-color: rgb(57, 166, 240);
+	box-shadow: inset 0px 1px 24px rgb(0, 157, 179); */
+	background: linear-gradient( 135deg, #39a6f0 10%, #39a6f0 100%);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    padding: 7px;
+}
+.btn-circle-panel.medium .btn-circle li a:hover img{
+	background: linear-gradient( 135deg, #39a6f0 10%, #95d0f9 100%);
+	
+} 
+.medium .btn-circle li a .secondSmall{
+	margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+    .btn-circle li, .nav-tabs.btn-circle > li{
+	margin:0px;
+}
+    .btn-circle, .btn-rounded, .btn-boxed{
+	/* text-align:left; */
+}
+.btn-circle-panel.medium .btn-circle a{
+	background:none;
+	
+}
+.info{
+	transition: 0.4s linear;
+	box-shadow:0px 0px 5px 0px rgba(142, 139, 133, 0.32);
+}
+.info:hover{
+	color:#000;
+	-webkit-transform: translateY(-2px) scale(1.0);
+    -moz-transform: translateY(-2px) scale(1.0);
+    -ms-transform: translateY(-2px) scale(1.0);
+    -o-transform: translateY(-2px) scale(1.0);
+    transform: translateY(-2px) scale(1.0);
+    -webkit-box-shadow: 1px 6px 10px rgba(62,57,107,.2);
+    box-shadow: 1px 6px 10px rgba(62,57,107,.2);
+    z-index: 999;
+}
+.btn-circle-panel.medium .btn-circle li, .btn-rounded-panel.medium .btn-rounded li{ 
+	width: 130px;
+    height: 130px!important;
+}
+.btn-circle-panel.medium .btn-circle li a, .btn-rounded-panel.medium .btn-rounded li a, .btn-boxed-panel.medium .btn-boxed li, .btn-boxed-panel.medium .btn-boxed li a{
+	width: 110px;
+    height: 110px;
+}
+.accordion.panel-group .panel-body {
+    background-color: #ffffff;
+    border-left: 2px solid #eee;
+    color: #262626!important;
+}
+.btn-circle li, .nav-tabs.btn-circle > li {
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+.accordion.panel-group .panel-body {
+background-color: #ffffff !important;}
+/*dashboard Menu icon change css*/
