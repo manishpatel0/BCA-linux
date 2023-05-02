@@ -40,3 +40,15 @@
      </tbody>
 
 </table>
+
+
+
+
+## List of TCP/IP Ports
+*[  The Internet Assigned Numbers Authority (IANA) specifies TCP/IP port numbers.
+As we discussed earlier in the course, all the port numbers are divided into three
+categories based on port number ranges: the Well Known Ports, the Registered Ports,
+and the Dynamic and/or Private Ports. The well known ports are those from 0 through
+1023, registered ports are those from 1024 through 49151 and the Dynamic and/or
+Private Ports are those from 49152 through 65535.
+] 
