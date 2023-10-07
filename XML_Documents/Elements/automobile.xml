@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<automobile>
+	<car type = "SUV">
+		<name>Scorpio</name>
+		<make>2010</make>
+		<price>11,000,00</price>
+	</car>
+	<car type = "MUV">
+		<name>Xylo</name>
+		<make>2011</make>
+		<price>9,000,00</price>
+	</car>
+	<car type = "SEDAN">
+		<name>Honda City</name>
+		<make>2010</make>
+		<price>9,500,00</price>
+	</car>
+</automobile>
+	
