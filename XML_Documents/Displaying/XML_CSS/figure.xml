@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<test>
+	<text1>A First XML with style!! . </text1>
+	<text2>Let's have coffee after dinner!</text2>
+	<text3> After that, let's go for a long drive.</text3>
+</test>
