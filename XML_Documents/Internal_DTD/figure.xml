@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+<!ELEMENT test (text1,text2,text3)>
+<!ELEMENT text1 (#PCDATA)>
+<!ELEMENT text2 (#PCDATA)>
+<!ELEMENT text3 (#PCDATA)>
+] >
+
+<test>
+	<text1>A First extensible XML . </text1>
+	<text2>Let's have coffee after dinner!</text2>
+	<text3> After that, let's go for a long drive.</text3>
+</test>
