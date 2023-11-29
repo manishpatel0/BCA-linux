@@ -13,11 +13,28 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="DisplayDate.jsp">Today's Date</a></li>
                     <li><a href="DisplayCounter.jsp">Your Visitor No.</a></li>
+                    <li><a href="StudentInformationForm.jsp">Enter Student Information</a></li>
+                    <li><a href="CourseStudentList.jsp">Student List for a Course</a></li>
                 </menu>
             </div>
             <div class="content">
                 <h3>Welcome to Lab Sessions</h3>
                 Please watch change in contents of this division only
+<!--                
+                
+                <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file= "top.jsp"%>
+Todays Date is :
+<% //Scriptlet for initialising and printing date object%>
+<% java.util.Date date = new java.util.Date();
+
+    out.println(" ");
+
+    out.println(date);
+%>
+<%@include file= "bottom.jsp"%>-->
+                
+                
             </div>
             <div class="right">
                 Course<br>
