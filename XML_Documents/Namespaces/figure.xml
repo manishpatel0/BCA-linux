@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<root xmlns:h="http://www.w3.org/ "xmlns:f="http://www.w3schools.com/">
+<h:title>
+<h:name>
+<h:first>Vedant</h:first>
+<h:last>Babu</h:last>
+<h:age>16</h:age>
+</h:name>
+</h:title>
+<f:title>
+<f:bookname>You can Win!!!</f:bookname>
+<f:price>150</f:price>
+<f:author>Shiv Kheda</f:author>
+</f:title>
+</root>

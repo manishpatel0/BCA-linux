@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<root>
+	<parent>
+		<node1>
+			<subNode1></subNode1>
+			<subNode2></subNode2>
+		</node1>
+		<node2>
+			<subNode1></subNode1>
+			<subNode1.1>Text Here!!!</subNode1.1>
+			<subNode2></subNode2>
+		</node2>
+	</parent>
+</root>

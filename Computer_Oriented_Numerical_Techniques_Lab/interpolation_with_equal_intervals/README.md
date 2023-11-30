@@ -1,0 +1,2 @@
+# Interpolation with equal intervals
+

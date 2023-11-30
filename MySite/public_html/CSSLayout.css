@@ -1,0 +1,17 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19-Oct-2023, 11:40:02 PM
+    Author     : workflow
+*/
+
+body{color:#000; font-size:18pt; margin:0; padding:0; }
+.container{width:100%;}
+.left{float:left; background: #ffcc00; width:300px; height: 500px; padding-left: 20px}
+.right{float: right; background: #ff00cc; width:300px; height: 500px; padding-left: 20px}
+.header{background: #ff0000; text-align: center; font-size: 30pt; height: 100px;}
+.content{float: left; width: 600px; text-align: justify; }
+.footer{clear: both; background: lightblue; font-size: 15pt;}
+

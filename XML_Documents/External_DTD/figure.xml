@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE test SYSTEM "test.dtd">
+
+<test>
+	<text1>A First extensible XML . </text1>
+	<text2>Let's have coffee after dinner!</text2>
+	<text3> After that, let's go for a long drive.</text3>
+</test>
