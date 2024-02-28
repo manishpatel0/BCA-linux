@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IGNOU</title>
+	<script type="text/javascript" language="javascript">
+		function howMany(selectOject) {
+			var numberSelected=0
+			for (var i = 0; i < selectOject.options.length; i++) {
+				if(selectOject.options[i].selected == true)
+					numberSelected++
+			}
+			return numberSelected
+		}
+	</script>
+</head>
+<body>
+
+	<form name="selectForm">
+		<p><b>Choose some music types, then click the button below:</b>
+			<br><select name="musicType" multiple>
+				<option selected>R & B
+				<option> jazz
+				<option> Blues
+				<option> New Age
+				<option>Classical
+				<option>Opero
+			</select>
+			<p><input type="button" value="How many are selected?" onclick="alert('Number of options selected:'  + howMany(document.selectForm.musicType))">
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+test {
+	margin: 10px;
+	background-color: #ccfffc;
+	font-family: sans-serif;
+}
+
+text1
+{
+display:block;
+font-weight:bold;
+}
+text2
+{
+display:block;
+color:#990000;
+font-size:small;
+font-style:italic;
+}
+
+
+text3
+{
+display:block;
+color:#112299;
+font-size:large;
+}
